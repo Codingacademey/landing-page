@@ -1,0 +1,170 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "girlo";
+}
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+#back {
+  pointer-events: none;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(139, 0, 0);
+}
+#back img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.top {
+ 
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  height: 100vh;
+}
+.working {
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1920px;
+  height: 100vh;
+}
+nav {
+  width: 100%;
+  height: 7.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nleft > img {
+  height: 60px;
+}
+.nleft {
+  text-decoration: none;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nleft > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.nright {
+  text-decoration: none;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nright > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.hero {
+  position: relative;
+  top: 8%;
+  left: 0%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heroleft {
+  width: 50%;
+ 
+}
+.heroright {
+  width: 30%;
+}
+.heroleft .elem1 h1 {
+  
+  position: absolute;
+  line-height: 0.9;
+  font-family: "kajiro";
+  color: white;
+  top: 100%;
+  left: 0%;
+  font-weight: 100;
+  font-size: 11vw;
+}
+.heroleft .elem1 {
+  position: relative;
+  overflow: hidden;
+  height: 9vw;
+}
+
+
+
+
+
+
+
+
+.heroleft .elem1 h1:nth-child(1){
+  top :0%;
+}
+button {
+  height: 60px;
+  width: 195px;
+  background-color: white;
+  color: black;
+  margin-top: 2.5vw;
+  font-family: "kajiro";
+  font-size: 3vw;
+}
+.heroright p {
+  color: white;
+  text-align: right;
+  font-size: 15px;
+  font-weight: 300;
+}
+.heroright > .img {
+  width: 75%;
+  margin-top: 20px;
+  margin-bottom: 44px;
+  margin-left: 6vw;
+  height: 150px;
+}
+.img img {
+  height: 145px;
+  width: 225px;
+  object-fit: cover;
+}
+
+#para {
+  margin-top: 70px;
+}
+
+#hey img{
+  height: 100vh;
+  width: 100vw;
+}
+
+
+
+.heroleft .elem2 h1 {
+  
+  
+  line-height: 0.9;
+  font-family: "kajiro";
+  color: white;
+ 
+  
+  font-weight: 100;
+  font-size: 11vw;
+}
+.heroleft .elem2 {
+  overflow: hidden;
+
+  height: 9vw;
+}
